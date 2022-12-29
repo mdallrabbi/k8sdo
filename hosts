@@ -1,0 +1,19 @@
+[masters]
+master0 ansible_host=172.105.119.26
+
+[workers]
+worker1 ansible_host=192.53.173.162
+worker2 ansible_host=139.162.59.188
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
+ansible_user=rabbi
+ansible_sudo_pass=MachuPicchu
+ansible_ssh_private_key_file=/home/rabbi/.ssh
+
+
+ansible_ssh_user='rabbi'
+#ansible_ssh_host=172.31.26.93
+ansible_ssh_port=22
+ansible_ssh_pass=MachuPicchu
+ansible_ssh_private_key_file=/home/ansibleuser/.ssh
